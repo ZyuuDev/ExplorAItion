@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+:root {
+  --background: #201d12;
+  --foreground: #f5f5dc;
+  --primary: #d4af35;
+  --maroon: #5c0000;
+  --soga: #201d12;
+  --cream: #f8f7f6;
+
+  --background-light: #f8f7f6;
+  --background-dark: #201d12;
+
+  --success-green: #16a34a;
+  --success-light: #dcfce7;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-maroon: var(--maroon);
+  --color-soga: var(--soga);
+  --color-cream: var(--cream);
+  --color-background-light: var(--background-light);
+  --color-background-dark: var(--background-dark);
+
+  --color-success-green: var(--success-green);
+  --color-success-light: var(--success-light);
+
+  --font-display: "Plus Jakarta Sans", sans-serif;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+  --radius-full: 9999px;
+}
+
+@layer base {
+  body {
+    @apply bg-background-light text-soga font-display antialiased;
+  }
+
+  .dark {
+    --background: #201d12;
+    --foreground: #f5f5dc;
+  }
+}
+
+@layer utilities {
+  .batik-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l15 30-15 30L15 30z' fill='%23d4af35' fill-opacity='0.05'/%3E%3C/svg%3E");
+  }
+
+  .batik-pattern-bg {
+    background-image: radial-gradient(#d4af35 0.5px, transparent 0.5px);
+    background-size: 24px 24px;
+    opacity: 0.1;
+  }
+
+  .keris-shadow {
+    filter: drop-shadow(0 4px 6px rgba(212, 175, 53, 0.3));
+  }
+
+  .glass-nav {
+    @apply bg-[rgba(248,247,246,0.8)] backdrop-blur-md border-b border-[rgba(212,175,53,0.2)];
+  }
+
+  .dark .glass-nav {
+    @apply bg-[rgba(32,29,18,0.8)];
+  }
+
+  .snake-path {
+    background-image: radial-gradient(circle, #e5e0d8 2px, transparent 2px);
+    background-size: 30px 30px;
+  }
+
+  .parang-pattern {
+    background-color: #d4af35;
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuC96VkcNw-zs1R-BGcoyilKEh-0NNBEWViwmwVnD83uJrVfFIJSJJIDmQZyB4btPl8l2umcAC8TaYf_HEpryUBLWRZuTORbt7VOBwqHqbCKmAN2TJlxNxETpFMe8jawcmX36pHHRdwLcuTk5pMVtTQPV9xmwOgtdh_Ukx1NnTZer0FmtMOLHhztd0hV29tVZ2qlEysZEXrcuSByupjoR4LbWRhg5yNm81gCKO32H3MKgElDhL4OI4uIIa0i0fxxUpQn0ujOGUIZtYTU);
+    opacity: 0.05;
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-full;
+  }
+
+  .node-active {
+    box-shadow: 0 0 0 8px rgba(212, 175, 53, 0.2);
+  }
+}
