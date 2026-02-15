@@ -13,6 +13,7 @@ export default function Sidebar() {
   const pathname = usePathname();
 
   const menuItems = [
+    { name: "BERANDA", href: "/", icon: "dashboard" },
     { name: "LEARN", href: "/academy", icon: "home" },
     { name: "LEADERBOARD", href: "/leaderboard", icon: "emoji_events" },
     { name: "QUESTS", href: "/quests", icon: "assignment" },

@@ -35,7 +35,7 @@ export default function LeaderboardPage() {
     },
     {
       rank: 4,
-      name: "Setyo (Kamu)",
+      name: "Raden Mas Bimo (Kamu)",
       xp: 9500,
       avatar:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuBa6bHPr67Eqd0C1B_YCbO6reME6eikTNmX4ChXHm66i-RY074gw2T-s0n4GBoC3DQIkEK9ghPM4AIcAHPVcCsjnwze45_auP12KZQVi75yDah3wY05T2aXHHpHABNp1LCoVegmxHbpmu8CReqSKbPZnP9IOFyy0JtYNZodCQnLcJH4aEweqCo-qdjui8y51C84QNV9NGvzm3pT-UB8KXA_YxgF1ajXkOH0MMrTCTxVMezCUF2i1OQU0X9DVjfcFzRk0gESgyG5C0il",
