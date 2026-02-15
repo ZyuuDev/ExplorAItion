@@ -16,9 +16,9 @@ export default function AcademyPage() {
                 <h2 className="text-sm font-bold opacity-80 uppercase tracking-widest mb-1">
                   Unit 1
                 </h2>
-                <h3 className="text-2xl font-black">Sanggar Wayang Kulit</h3>
+                <h3 className="text-2xl font-black">Sanggar Pesona Batik Yogyakarta</h3>
                 <p className="text-white/80 font-medium mt-1">
-                  Introduction to Pandawa Lima & Character Traits
+                  Mengenalkan batik - batik dasar di Yogyakarta 
                 </p>
               </div>
               <button className="bg-white/20 hover:bg-white/30 p-4 rounded-xl backdrop-blur-md border border-white/30 transition-all">
@@ -39,9 +39,7 @@ export default function AcademyPage() {
                 </button>
               </Link>
               <div className="absolute -top-12 left-1/2 -translate-x-1/2 bg-white border-2 border-slate-200 px-4 py-2 rounded-xl whitespace-nowrap shadow-sm">
-                <span className="font-black text-slate-700">
-                  Belajar Batik
-                </span>
+                <span className="font-black text-slate-700">Dasar Batik</span>
               </div>
             </div>
 
@@ -67,7 +65,7 @@ export default function AcademyPage() {
               </button>
               <div className="absolute -top-10 left-1/2 -translate-x-1/2 bg-white border-2 border-slate-200 px-3 py-1.5 rounded-xl whitespace-nowrap shadow-sm">
                 <span className="font-bold text-slate-600 text-sm">
-                  Dasar Aksara
+                  Jenis Jenis Batik
                 </span>
               </div>
             </div>
@@ -96,7 +94,7 @@ export default function AcademyPage() {
               </button>
               <div className="absolute -top-10 left-1/2 -translate-x-1/2 bg-slate-100 border-2 border-slate-200 px-3 py-1.5 rounded-xl whitespace-nowrap">
                 <span className="font-bold text-slate-400 text-sm">
-                  Dasar Wayang
+                  Menghafal Batik
                 </span>
               </div>
             </div>
@@ -129,14 +127,7 @@ export default function AcademyPage() {
       <aside className="fixed right-0 top-16 h-[calc(100vh-64px)] w-80 p-8 hidden xl:flex flex-col gap-8 bg-background-light dark:bg-background-dark border-l border-primary/10 overflow-y-auto custom-scrollbar">
         {/* Mascot Section */}
         <div className="bg-white border-2 border-slate-200 rounded-2xl p-6 relative">
-          <div className="absolute -top-12 -right-4 w-32 h-32">
-            <img
-              className="w-full h-full object-contain"
-              alt="A modern stylized Javanese boy character as a puppet master"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCykEVGQf-tdhmoZjvHSTlWSSjBJFePCbpeIC9HNC33sdeUsVW4Sy51mu_i6TP-Z6XFqPY9yqEvdqTsKOD_Bi_1pwH8AsJeKv6z0TlTHK-_j3jQbfByypD6HbSVc-PSer0DEKa7Z-lMU0k6gwH2tpNL2zIVc98IisyXUCXB3XXANFOCatq9EbWo8jwMfrpMScS7CmACpnLkCcMttCBZG01mRn4lTHOqWPSzuaJqa-lZ4jtht_3VbUGQjNCER2u47uV_45-6kZLMlOhS"
-            />
-          </div>
-          <div className="pr-12">
+          <div>
             <h4 className="font-black text-slate-800 mb-1 leading-tight">
               Sugeng Rawuh!
             </h4>

@@ -38,7 +38,7 @@ export default function ScanPage() {
               <img
                 className="w-full h-full object-cover opacity-60"
                 alt="Traditional Wayang Kulit puppet Gatotkaca"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB93weiCtm5I2BSmwAngKhStgRPbY1RXhWW3P9KCWstaknh97lNk7urdFbyCPDN0gH4M9wOSyvQcoDrZN8cb02FkxB_6Xt91Tr6vbZT82U1Qsi-LbTn-azWubmLWkjavA2fHlN2sFHLSVLeB1G7fAQb0glPRwkRY2FiUgLBUVAcNRmiFCU-XSAjzpYWcdlGHT0_i_qUSyAh0k_Sh5WjCT8TNleEZEr0IIBSt_rIRdMzZnnn9_Po7MsClvlxColiE1ryCKmudgX9I-TS"
+                src="/gatotkaca.jpg"
               />
 
               {/* Scan Overlay */}
@@ -212,12 +212,14 @@ export default function ScanPage() {
                     </div>
                   </div>
                 )}
-                <button className="w-full mt-6 py-3 bg-deep-maroon text-white rounded-lg font-bold flex items-center justify-center gap-2 hover:bg-deep-maroon/90 transition-colors">
-                  <span>Pelajari Lebih Dalam</span>
-                  <span className="material-icons-round text-sm">
-                    arrow_forward
-                  </span>
-                </button>
+                <Link href="/wayang/gatotkaca">
+                  <button className="w-full mt-6 py-3 bg-deep-maroon text-white rounded-lg font-bold flex items-center justify-center gap-2 hover:bg-deep-maroon/90 transition-colors">
+                    <span>Pelajari Lebih Dalam</span>
+                    <span className="material-icons-round text-sm">
+                      arrow_forward
+                    </span>
+                  </button>
+                </Link>
               </div>
             </div>
 
