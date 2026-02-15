@@ -25,7 +25,7 @@ export default function LandingPage() {
             </h1>
             <p className="text-lg text-soga/80 dark:text-cream/80 max-w-lg leading-relaxed">
               Eksplorasi warisan luhur Yogyakarta dengan teknologi terkini. Dari
-              pemindaian AI hingga akademi berbasis game yang seru untuk
+              pemindaian AI hingga akademi berbasis game yang seru untuk Generasi
               Muda Indonesia.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
