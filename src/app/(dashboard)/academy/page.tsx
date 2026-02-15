@@ -40,7 +40,7 @@ export default function AcademyPage() {
               </Link>
               <div className="absolute -top-12 left-1/2 -translate-x-1/2 bg-white border-2 border-slate-200 px-4 py-2 rounded-xl whitespace-nowrap shadow-sm">
                 <span className="font-black text-slate-700">
-                  Yudhistira's Virtue
+                  Belajar Batik
                 </span>
               </div>
             </div>
@@ -67,7 +67,7 @@ export default function AcademyPage() {
               </button>
               <div className="absolute -top-10 left-1/2 -translate-x-1/2 bg-white border-2 border-slate-200 px-3 py-1.5 rounded-xl whitespace-nowrap shadow-sm">
                 <span className="font-bold text-slate-600 text-sm">
-                  Bima: The Strength
+                  Dasar Aksara
                 </span>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function AcademyPage() {
               </button>
               <div className="absolute -top-10 left-1/2 -translate-x-1/2 bg-slate-100 border-2 border-slate-200 px-3 py-1.5 rounded-xl whitespace-nowrap">
                 <span className="font-bold text-slate-400 text-sm">
-                  Arjuna's Bow
+                  Dasar Wayang
                 </span>
               </div>
             </div>
@@ -105,7 +105,7 @@ export default function AcademyPage() {
             <div className="w-full py-8 flex items-center gap-4">
               <div className="h-[2px] bg-slate-200 flex-1"></div>
               <div className="px-6 py-2 bg-slate-100 rounded-full text-slate-400 font-bold text-xs uppercase tracking-widest">
-                Locked: Galeri Batik
+                Locked: Galeri Wayang
               </div>
               <div className="h-[2px] bg-slate-200 flex-1"></div>
             </div>
