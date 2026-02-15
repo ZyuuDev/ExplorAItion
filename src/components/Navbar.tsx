@@ -23,7 +23,7 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "Tentang", href: "#" },
+    { name: "Beranda", href: "/" },
     { name: "Scan Budaya", href: "/scan" },
     { name: "NJOGJANI Academy", href: "/academy" },
   ];
