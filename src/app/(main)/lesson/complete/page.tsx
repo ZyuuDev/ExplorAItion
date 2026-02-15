@@ -46,7 +46,7 @@ export default function LessonCompletePage() {
             <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
               Waktu
             </p>
-            <p className="text-xl font-black text-blue-500">02:15</p>
+            <p className="text-xl font-black text-blue-500">00:05</p>
           </div>
           <div className="bg-slate-50 dark:bg-slate-700/50 p-3 rounded-xl">
             <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
