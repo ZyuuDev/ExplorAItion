@@ -34,7 +34,7 @@ export default function DashboardLayout({
           <div className="flex items-center gap-2">
             <span className="material-icons-round text-sky-500">token</span>
             <span className="font-extrabold text-slate-600">
-              {tokens.toLocaleString()}
+              {tokens.toLocaleString("id-ID")}
             </span>
           </div>
         </div>

@@ -15,8 +15,8 @@ export default function Sidebar() {
   const menuItems = [
     { name: "LEARN", href: "/academy", icon: "home" },
     { name: "LEADERBOARD", href: "/leaderboard", icon: "emoji_events" },
-    { name: "QUESTS", href: "#", icon: "assignment" },
-    { name: "SHOP", href: "#", icon: "storefront" },
+    { name: "QUESTS", href: "/quests", icon: "assignment" },
+    { name: "SHOP", href: "/shop", icon: "storefront" },
     { name: "PROFILE", href: "/profile", icon: "person" },
   ];
 
