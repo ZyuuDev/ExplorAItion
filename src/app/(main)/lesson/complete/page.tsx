@@ -52,7 +52,7 @@ export default function LessonCompletePage() {
             <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
               XP
             </p>
-            <p className="text-xl font-black text-yellow-500">+50</p>
+            <p className="text-xl font-black text-yellow-500">+70</p>
           </div>
         </div>
 
